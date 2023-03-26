@@ -2,7 +2,7 @@
 // Created by mniewczas on 3/26/23.
 //
 
-#include "../include/Fork.h"
+#include "../headers/Fork.h"
 #include <iostream>
 
 Fork::Fork() {

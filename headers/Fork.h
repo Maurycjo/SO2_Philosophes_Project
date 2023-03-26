@@ -7,6 +7,10 @@
 
 
 class Fork {
+private:
+    bool isBusy = false;    //true-busy, false-free
+    bool isInRightHand;     //fork is in right side of philosopher who hand it
+    bool isInLeftHand;      //the same but left side
 
 public:
     Fork();
